@@ -1,5 +1,7 @@
 ## Engineering projects
 
+**[Dispute Desk](https://github.com/ihussain2323/dispute-desk)** takes a payment dispute from a voice call to a case. [Hear the agent read back a disputed $6.75 charge](https://github.com/ihussain2323/dispute-desk/blob/main/demo/call.wav) and [inspect the confirmed case](https://github.com/ihussain2323/dispute-desk/blob/main/demo/case.json).
+
 **[Turnscope](https://github.com/ihussain2323/turnscope)** measures where a voice agent interrupts a caller and how long the caller waits for a reply. A second experiment runs Whisper on six synthetic payment-support requests. [Listen to a clip](https://github.com/ihussain2323/turnscope/blob/main/speech/dispute.wav) or [inspect how noise changed the transcripts](https://github.com/ihussain2323/turnscope/blob/main/measurements/tiny-en.json).
 
 **[Payout Diff](https://github.com/ihussain2323/payout-diff)** traces a bank deposit to the charges, fees, and refunds that funded it. In the [sample exports](https://github.com/ihussain2323/payout-diff/tree/main/examples), two payouts compete for one $45 deposit and a separate payout lands one cent short. The report preserves the evidence for both exceptions.
